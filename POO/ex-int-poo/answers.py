@@ -60,11 +60,11 @@ print("\n")
 usuario2 = Usuario()
 
 # Definição dos atributos
-usuario1.nome = "Jane"
-usuario1.sobrenome = "Silva"
+usuario2.nome = "Jane"
+usuario2.sobrenome = "Silva"
 
 # Exibição dos nomes do 'usuario2' individualmente
-print("Nome do usuário: " + usuario1.nome + " " + usuario1.sobrenome)
+print("Nome do usuário: " + usuario2.nome + " " + usuario2.sobrenome)
 
 # Utilização do método 'saudacao()' com base no objeto 'usuario2'
-usuario1.saudacao()
+usuario2.saudacao()
