@@ -29,7 +29,7 @@
 
 
 
-class Usuario: # Criação da classe
+class Usuario(): # Criação da classe
 
     # Criação das propriedades
     nome = ""
