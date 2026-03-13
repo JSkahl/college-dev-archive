@@ -1,0 +1,25 @@
+/* USO DIRETO */
+body {
+    font-size: clamp(1rem, calc(0.5rem + 2vw), 1.625rem);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw 10vw;
+    background-color: #f7f8fd;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1vw;
+    color: #03045E;
+}
+
+header nav ul li:last-child a {
+    background-color: #03045E;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
